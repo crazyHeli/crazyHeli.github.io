@@ -1,0 +1,25 @@
+.rules p{
+    font-size: 25px;
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.key img{
+    padding-right: 40px;
+    box-shadow: 0;
+}
+.obj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.obj img{
+    padding-right: 60px;
+    box-shadow: 0;
+}
+.issue p{
+    font-size: 30px;
+}

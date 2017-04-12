@@ -1,0 +1,142 @@
+/*Let's make our game more beutyful later*/
+
+body {
+    font-family: 'Russo One', sans-serif;
+    font-size: 16px;    
+    min-height: 100%; 
+}
+
+.wrapper {
+     position: relative;
+     height: 3200px;
+     background-image: url('../imgs/Enyo.jpg');
+     background-repeat: no-repeat;
+     background-position: 50% 0px;
+     -webkit-background-size: 100%;
+     background-size: 100%;
+     text-align: center;
+     font-size: 50px;
+     color: white;
+     padding-top:50px;
+}
+
+.menu {
+    display: block;
+    background-image: url('../imgs/game-ui.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 720px;
+    height: 480px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    top: 257px;
+    left: 312px;
+    border-radius: 100px;
+    border: none;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+button:active {
+    outline: none;
+}
+
+canvas { 
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 720px;
+    height: 480px;
+    background-color: white;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.restart {
+    display: none;
+    background-image: url('../imgs/gameover2.png');
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 720px;
+    height: 480px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.supergame{
+     font-family: 'Russo One', sans-serif;
+     padding:10px 0 50px 0px; 
+}
+
+.rules{
+    color: #25365D;
+    font-size: 50px;
+    font-weight: bold; 
+     font-family: 'Russo One', sans-serif;
+}
+.rules-explanation{
+    color: rgba(49, 109, 146, 0.58);
+    font-size: 22px;
+    line-height: 1.5em;
+    text-align: left;
+    text-indent: 30px;
+     font-family: 'Russo One', sans-serif;
+     margin-bottom: 20px; 
+}
+
+.rule1{
+    text-indent: 30px;
+}
+.rolling{
+    color: #25365D;
+}
+.screens2{
+    border: 3px #25365D solid;
+    margin-bottom: 15px;
+}
+
+.devs{
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    color: #25365D;
+}
+
+.restart {
+    display: none;
+    background-image: url('../imgs/gameover2.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid black;
+    width: 720px;
+    height: 480px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}

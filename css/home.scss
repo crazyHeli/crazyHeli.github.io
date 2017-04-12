@@ -1,0 +1,31 @@
+$clr1: lightgrey;
+$clr2: black;
+$clr3: white;
+$font-family1: arial,
+sans-serif;
+$font-size1: 16px;
+body {
+    background-color: $clr1;
+    font-family: $font-family1;
+    font-size: $font-size1;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid $clr2;
+    width: 720px;
+    height: 480px;
+    background-color: $clr3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
