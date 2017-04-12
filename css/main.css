@@ -140,3 +140,13 @@ canvas {
     box-sizing: border-box;
     text-align: center;
 }
+.key{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(49, 109, 146, 0.58);
+}
+.key img{
+    padding-right: 40px;
+    box-shadow: 0;
+}
