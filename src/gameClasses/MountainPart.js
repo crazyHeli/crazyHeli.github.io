@@ -41,7 +41,7 @@ class MountainPart extends Moving{
 
         this.x -= this.speed;
         if ((this.x + this.width) <= 0){
-            this.x = this.prevMountain.x + this.prevMountain.width -1 ;
+            this.x = this.prevMountain.x + this.prevMountain.width ;
         }
     }
 
