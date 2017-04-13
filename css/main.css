@@ -24,7 +24,7 @@ body {
     display: block;
     background-image: url('../imgs/game-ui.png');
     position: absolute;
-    top: 0px;
+    top: -20px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -67,7 +67,7 @@ canvas {
 .restart {    
     display: none;    
     position: absolute;    
-    top: 0px;    
+    top: -20px;    
     left: 0;    
     right: 0;    
     bottom: 0;    
