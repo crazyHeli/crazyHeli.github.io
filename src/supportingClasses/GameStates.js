@@ -145,7 +145,6 @@ class Score extends Moving {
         this.gameObj.pause = true;
         this.sounds.pause();
         this.sounds3.play();
-        this.context.drawImage(this.img2, 0, 0);
         this.gameObj.destroy();
         this.showRestart();
     }
