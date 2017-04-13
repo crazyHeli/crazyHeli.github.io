@@ -17,7 +17,7 @@ class Background extends Moving{
          this.context.drawImage(this.img, -this.x, this.y);
          this.context.drawImage(this.img, -this.x + this.canvasWidth, this.y);
          if (this.x >= this.canvasWidth)
-             this.x = 0;
+             this.x = -1;
     }
 
     drawgIg(){
