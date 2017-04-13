@@ -33,7 +33,7 @@ class MountainPart extends Moving{
             if (this.firstMountain){
                 this.x = 0;
             } else {
-                this.x = this.prevMountain.x + this.prevMountain.width - 3;
+                this.x = this.prevMountain.x + this.prevMountain.width - 1;
             }
             //init y
             this.y = 480 - this.height;
