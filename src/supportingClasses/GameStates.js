@@ -141,13 +141,15 @@ class Score extends Moving {
         this.checkScores();
     }
 
-    gameOver() {
-        this.gameObj.pause = true;
-        this.sounds.pause();
-        this.sounds3.play();
-        this.gameObj.destroy();
-        this.showRestart();
+    gameOver() {        
+        this.gameObj.pause = true;        
+        this.sounds.pause();        
+        this.sounds3.play();        
+        this.context.drawImage(this.img2, 0, 0);        
+        this.gameObj.destroy();        
+        this.showRestart();    
     }
+
     showRestart() {
         let menu = document.getElementById('menu');
         menu.className = "restart";
