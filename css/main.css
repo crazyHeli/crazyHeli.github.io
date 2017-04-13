@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Russo One', sans-serif;
-    font-size: 16px;    
-    min-height: 100%; 
+    font-size: 16px;
+    min-height: 100%;
 }
 
 .wrapper {
@@ -17,7 +17,7 @@ body {
      text-align: center;
      font-size: 50px;
      color: white;
-     padding-top:50px;
+     padding-top:30px;
 }
 
 .menu {
@@ -54,7 +54,7 @@ button:active {
     outline: none;
 }
 
-canvas { 
+canvas {
     margin: 0 auto;
     border: 1px solid black;
     width: 720px;
@@ -85,13 +85,13 @@ canvas {
 
 .supergame{
      font-family: 'Russo One', sans-serif;
-     padding:10px 0 50px 0px; 
+     padding:10px 0 30px 0px;
 }
 
 .rules{
     color: #25365D;
     font-size: 50px;
-    font-weight: bold; 
+    font-weight: bold;
      font-family: 'Russo One', sans-serif;
 }
 .rules-explanation{
@@ -101,7 +101,7 @@ canvas {
     text-align: left;
     text-indent: 30px;
      font-family: 'Russo One', sans-serif;
-     margin-bottom: 20px; 
+     margin-bottom: 20px;
 }
 
 .rule1{
@@ -145,6 +145,8 @@ canvas {
     justify-content: center;
     align-items: center;
     color: rgba(49, 109, 146, 0.58);
+    font-size: 22px;
+    margin-bottom: 10px;
 }
 .key img{
     padding-right: 40px;
