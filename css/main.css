@@ -67,7 +67,6 @@ canvas {
 
 .restart {
     display: none;
-    background-image: url('../imgs/gameover2.png');
     position: absolute;
     top: -20px;
     left: 0;
